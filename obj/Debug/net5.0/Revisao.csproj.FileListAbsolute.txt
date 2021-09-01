@@ -1,0 +1,16 @@
+C:\vscodeProj\DIO\Revisao\bin\Debug\net5.0\Revisao.exe
+C:\vscodeProj\DIO\Revisao\bin\Debug\net5.0\Revisao.deps.json
+C:\vscodeProj\DIO\Revisao\bin\Debug\net5.0\Revisao.runtimeconfig.json
+C:\vscodeProj\DIO\Revisao\bin\Debug\net5.0\Revisao.runtimeconfig.dev.json
+C:\vscodeProj\DIO\Revisao\bin\Debug\net5.0\Revisao.dll
+C:\vscodeProj\DIO\Revisao\bin\Debug\net5.0\ref\Revisao.dll
+C:\vscodeProj\DIO\Revisao\bin\Debug\net5.0\Revisao.pdb
+C:\vscodeProj\DIO\Revisao\obj\Debug\net5.0\Revisao.csproj.AssemblyReference.cache
+C:\vscodeProj\DIO\Revisao\obj\Debug\net5.0\Revisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\vscodeProj\DIO\Revisao\obj\Debug\net5.0\Revisao.AssemblyInfoInputs.cache
+C:\vscodeProj\DIO\Revisao\obj\Debug\net5.0\Revisao.AssemblyInfo.cs
+C:\vscodeProj\DIO\Revisao\obj\Debug\net5.0\Revisao.csproj.CoreCompileInputs.cache
+C:\vscodeProj\DIO\Revisao\obj\Debug\net5.0\Revisao.dll
+C:\vscodeProj\DIO\Revisao\obj\Debug\net5.0\ref\Revisao.dll
+C:\vscodeProj\DIO\Revisao\obj\Debug\net5.0\Revisao.pdb
+C:\vscodeProj\DIO\Revisao\obj\Debug\net5.0\Revisao.genruntimeconfig.cache
