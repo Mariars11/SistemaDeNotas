@@ -6,9 +6,9 @@ namespace Revisao
     {
         static void Main(string[] args)
         {
-            Aluno[] alunos = new Aluno[5];
+            Aluno[] alunos = new Aluno[5]; //cria um array de aluno que aloca 5
             var indiceAluno = 0;
-            string opcaoUsuario = ObterOpcaoUsuario();
+            string opcaoUsuario = ObterOpcaoUsuario(); //metodo obteropçãousuario
 
             while (opcaoUsuario.ToUpper() != "X")
             {
@@ -17,18 +17,18 @@ namespace Revisao
                     case "1":
                         Console.Write("\nInforme o nome do Aluno(a): ");
                         var aluno = new Aluno();
-                        aluno.Nome = Console.ReadLine();
+                        aluno.Nome = Console.ReadLine(); //possibilita que as notas sejam alocadas no array do aluno
 
                         Console.Write("Informe a nota do aluno: ");
                         
-                        if (decimal.TryParse(Console.ReadLine(), out decimal nota)){
+                        if (decimal.TryParse(Console.ReadLine(), out decimal nota)){ //tryparse elimina a necessidade de tratamento de exceção
                             aluno.Nota = nota;
                         }
                         else{
                             throw new ArgumentException("Valor da nota deve ser decimal");
                         }
 
-                        alunos[indiceAluno] = aluno;
+                        alunos[indiceAluno] = aluno; //ajeita as informações salvas aqui, em array, aluno1, aluno2 ...
                         indiceAluno++;
 
                         break;
@@ -75,7 +75,7 @@ namespace Revisao
                 }
             //para que o usuário tenha a opçao de realizar novamente o procedimento
 
-                opcaoUsuario = ObterOpcaoUsuario();
+                opcaoUsuario = ObterOpcaoUsuario(); 
             }
         }
         private static string ObterOpcaoUsuario()
